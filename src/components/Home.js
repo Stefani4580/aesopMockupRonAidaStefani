@@ -4,7 +4,7 @@ export default class componentName extends Component {
     render() {
         return (
             <div>
-                
+                {/* Aidarous type this line */}
             </div>
         )
     }
