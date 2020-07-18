@@ -15,11 +15,11 @@ export default class Home extends React.Component {
       <Router>
         <div>
           <div className="header">
-            <h1>
+            <h1 className="covid">
               We are pleased to inform that select Aesop stores in the US have
               reopened with modified hours.
             </h1>
-            <h1>Enjoy complimentary standard shipping on all orders.</h1>
+            <h1 className="freeShip">Enjoy complimentary standard shipping on all orders.</h1>
           </div>
 
           <nav className="nav">
