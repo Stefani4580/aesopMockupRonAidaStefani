@@ -1,9 +1,17 @@
 import React, { Component } from 'react'
 
-export default class Shop extends Component {
+class Shop extends Component {
     render() {
         return (
-            <div>
+            <div className= "Shop">
+                <div className="skin">
+                    <navbar></navbar>
+                </div>
+                <div className="hair"></div>
+                <div className="body-hand"></div>
+                <div className="fragrance"></div>
+                <div className="home"></div>
+
                 
             </div>
         )
