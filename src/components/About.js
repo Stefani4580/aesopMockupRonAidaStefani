@@ -13,6 +13,12 @@ export default class About extends Component {
 
 <h3>Our objective has always been to formulate skin, hair and body care products of the finest quality; we investigate widely to source plant-based and laboratory-made ingredients, and use only those with a proven record of safety and efficacy. In each of our unique stores, informed consultants are pleased to introduce the Aesop range and to guide your selections.
 
+    <br></br>
+
+    <h2><center> A sincere interest in intelligent and sustainable design extends to every aspect of Aesop’s workings. </center></h2>
+
+    <img src = "Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px"></img>
+
 </h3>
                 
             </div>
