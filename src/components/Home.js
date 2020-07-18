@@ -22,8 +22,9 @@ export default class Home extends React.Component {
             <h1 className="freeShip">Enjoy complimentary standard shipping on all orders.</h1>
           </div>
 
-          <nav className="nav">
-            <ul>
+        <div className="first">
+          <nav>
+            <ul className="nav">
               <li>
                 <Link to="/shop">Shop</Link>
               </li>
@@ -38,6 +39,7 @@ export default class Home extends React.Component {
               </li>
             </ul>
           </nav>
+        </div>
 
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}

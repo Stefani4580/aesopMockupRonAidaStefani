@@ -14,5 +14,12 @@
 }
 
 .nav {
-  display: inline;
+  display: flex;
+  justify-content: space-evenly;
+  background: #fcba03;
+
+}
+.first{
+  background: #fcba03;
+  height: 300px;
 }
