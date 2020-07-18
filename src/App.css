@@ -7,15 +7,20 @@
 
 
 .covid {
-  background: brown;
+  background:#a6672b;
   font-size: large;
   text-align: center;
+  height: 30px;
+  padding-top: 6px;
 }
 
 .freeShip{
-  background: darkred;
+  background: #252525;
   font-size: medium;
+  color: white;
   text-align: center;
+  height: 30px;
+  padding-top: 6px;
 }
 
 .nav {
