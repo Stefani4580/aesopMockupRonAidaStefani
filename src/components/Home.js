@@ -13,13 +13,16 @@ export default class Home extends React.Component {
   render() {
     return (
       <Router>
-        <div>
+        <div className="main">
           <div className="header">
             <h1 className="covid">
               We are pleased to inform that select Aesop stores in the US have
               reopened with modified hours.
             </h1>
-            <h1 className="freeShip">Enjoy complimentary standard shipping on all orders.</h1>
+            <h1 className="freeShip">Enjoy complimentary standard shipping on all orders.
+            </h1>
+            <div className="logoCircle"></div>
+            <h1 className="logo">Aesop</h1>
           </div>
 
         <div className="first">
@@ -39,6 +42,10 @@ export default class Home extends React.Component {
               </li>
             </ul>
           </nav>
+        </div>
+
+        <div className="second">
+            Second Page
         </div>
 
           {/* A <Switch> looks through its children <Route>s and
