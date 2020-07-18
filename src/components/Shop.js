@@ -17,4 +17,3 @@ class Shop extends Component {
         )
     }
 }
-
