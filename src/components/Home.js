@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Shop from "./Shop";
-import About from "./About";
+import Read from "./Read";
 import Stores from "./Stores";
 import Search from "./Search";
 
@@ -30,7 +30,7 @@ export default class Home extends React.Component {
                 <Link to="/shop">Shop</Link>
               </li>
               <li>
-                <Link to="/About">About</Link>
+                <Link to="/Read">Read</Link>
               </li>
               <li>
                 <Link to="/stores">Stores</Link>
@@ -52,8 +52,8 @@ export default class Home extends React.Component {
             <Route path="/shop">
               <Shop />
             </Route>
-            <Route path="/About">
-              <About />
+            <Route path="/Read">
+              <Read />
             </Route>
             <Route path="/stores">
               <Stores />
