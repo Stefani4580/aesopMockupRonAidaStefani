@@ -21,24 +21,24 @@ export default class Home extends React.Component {
             </h1>
             <h1 className="freeShip">Enjoy complimentary standard shipping on all orders.
             </h1>
-            <div className="logoCircle"></div>
-            <h1 className="logo">Aesop</h1>
+            <div className="logoCircle"><h1 className="logoText">Aēsop</h1></div>
+            
           </div>
 
         <div className="first">
           <nav>
             <ul className="nav">
               <li>
-                <Link to="/shop">Shop</Link>
+                <Link className="link" to="/shop">Shop</Link>
               </li>
               <li>
-                <Link to="/read">Read</Link>
+                <Link className="link" to="/read">Read</Link>
               </li>
               <li>
-                <Link to="/stores">Stores</Link>
+                <Link className="link" to="/stores">Stores</Link>
               </li>
               <li>
-                <Link to="/search">Search</Link>
+                <Link className="link" to="/search">Search</Link>
               </li>
             </ul>
           </nav>

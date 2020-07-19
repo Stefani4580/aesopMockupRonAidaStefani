@@ -17,6 +17,7 @@
   text-align: center;
   height: 30px;
   padding-top: 6px;
+  margin: 0;
 }
 
 .freeShip{
@@ -26,7 +27,12 @@
   text-align: center;
   height: 30px;
   padding-top: 6px;
+  margin: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 .logoCircle{
   width: 300px;
@@ -36,9 +42,11 @@
   font-size: xx-large; 
   z-index: 800;
 }
-.logo{
+.logoText{
   position: relative;
-  top: 0;
+  top: 100px;
+  left: 50px;
+  font-family: 'Libre Baskerville', serif
 }
 
 .nav {
@@ -46,10 +54,16 @@
   justify-content: flex-start;
   background: #fcba03;
   list-style: none;
+  font-family: 'Varela Round', sans-serif;
+  /* text-decoration: none; */
 }
 
 li{
   padding: 10px;
+}
+
+.link{
+  text-decoration: none;
 }
 
 .first{
