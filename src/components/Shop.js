@@ -5,7 +5,14 @@ class Shop extends Component {
         return (
             <div className= "Shop">
                 <div className="skin">
-                    <navbar></navbar>
+                    <h1>Skin</h1>
+                <nav class="navbar"> 
+        
+                    <a href="#all-skin" id="all-skin-button"> All Skin </a> 
+                    <a href="#cleanse" id="cleanse-button"> Cleanse </a>
+                    <a href="#exfoliate" id="exfoliate"> Exfoliate</a>
+                    <a href="treat-and-masque" id="treat-and-masque-button"> Treat & Masque</a>
+                </nav>
                 </div>
                 <div className="hair"></div>
                 <div className="body-hand"></div>
@@ -17,3 +24,6 @@ class Shop extends Component {
         )
     }
 }
+
+
+export default Shop;
