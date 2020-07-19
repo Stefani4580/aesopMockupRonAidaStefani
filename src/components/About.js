@@ -3,10 +3,14 @@ import React, { Component } from 'react'
 export default class About extends Component {
     render() {
         return (
-            <div>
-
-            <h4> Our Story </h4>
-            <h2> We offer skin, hair and body care formulations created with meticulous attention to detail, and with efficacy and sensory pleasure in mind. </h2>
+            <div className="aboutHeader">
+<br></br>
+<br></br>
+            <h4><center>
+                Our Story </center></h4>
+            <h1 className="aboutText"><center> We offer skin, hair and body care formulations </center></h1>
+            <h1 className="aboutText"><center>created with meticulous attention to detail, and</center></h1>
+            <h1 className="aboutText"><center>with efficacy and sensory pleasure in mind.</center></h1>
 <br></br>
 
 <h2> Aesop was established in 1987. We are headquartered in Melbourne, and have offices and stores in many parts of the world. </h2>
@@ -17,12 +21,9 @@ export default class About extends Component {
 
     <h2><center> A sincere interest in intelligent and sustainable design extends to every aspect of Aesop’s workings. </center></h2>
 
-    <img src = "Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px"></img>
-
 </h3>
                 
             </div>
         )
     }
 }
-

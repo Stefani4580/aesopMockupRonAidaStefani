@@ -1,0 +1,17 @@
+.aboutHeader {
+  background: url("./assets/images/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png");
+  background-size: cover;
+  height: 500px;
+  z-index: -1;
+}
+
+
+
+.aboutText{
+  
+  font-size: extralarge;
+  text-align: center;
+  height: 10px;
+  padding-top: 0px;
+  font-family: 'Lobster', cursive;
+}
