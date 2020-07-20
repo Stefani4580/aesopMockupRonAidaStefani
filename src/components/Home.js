@@ -6,9 +6,7 @@ import Stores from "./Stores";
 import Search from "./Search";
 
 export default class Home extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+
 
   render() {
     return (
@@ -54,7 +52,7 @@ export default class Home extends React.Component {
             <Route path="/shop">
               <Shop />
             </Route>
-            <Route path="/read">
+            <Route path="/Read">
               <Read />
             </Route>
             <Route path="/stores">
@@ -69,3 +67,5 @@ export default class Home extends React.Component {
     );
   }
 }
+
+// ron typed this line
