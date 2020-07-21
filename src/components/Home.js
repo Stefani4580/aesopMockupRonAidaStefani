@@ -11,7 +11,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <Router>
-        <div className="main">
+        <div className="main" className="container-fluid">
           <div className="header">
             <h1 className="covid">
               We are pleased to inform that select Aesop stores in the US have
