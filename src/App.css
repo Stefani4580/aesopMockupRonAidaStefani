@@ -55,7 +55,6 @@
   background: #fcba03;
   list-style: none;
   font-family: 'Varela Round', sans-serif;
-  /* text-decoration: none; */
 }
 
 li{
@@ -71,7 +70,7 @@ li{
   height: 300px;
 }
 
-.second{
-  background: url("./assets/images/Aesop-Free-Market-Carousel-1-Desktop-2560x1440px.png");
-  height: 300px;
+.second {
+  font-family: 'Varela Round', sans-serif;
 }
+
