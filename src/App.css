@@ -44,8 +44,8 @@
 }
 .logoText{
   position: relative;
-  top: 100px;
-  left: 50px;
+  top: 120px;
+  left: 80px;
   font-family: 'Libre Baskerville', serif
 }
 
@@ -67,7 +67,6 @@ li{
 
 .first{
   background: #fcba03;
-  height: 300px;
 }
 
 .second {

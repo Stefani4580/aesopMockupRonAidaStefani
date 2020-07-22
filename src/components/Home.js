@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Shop from "./Shop";
-import Read from "./Read";
+import About from "./About";
 import Stores from "./Stores";
 import Search from "./Search";
 import Card from "react-bootstrap/Card";
@@ -35,7 +35,7 @@ export default class Home extends React.Component {
                 </li>
                 <li>
                   <Link className="link" to="/read">
-                    Read
+                    About
                   </Link>
                 </li>
                 <li>
@@ -50,9 +50,6 @@ export default class Home extends React.Component {
                 </li>
               </ul>
             </nav>
-          </div>
-
-          <div className="second">
             <div class="row">
 
             <div class="col-5">
@@ -67,30 +64,25 @@ export default class Home extends React.Component {
                 <Card.Body>
                   <Card.Title>Rind Concentrate Body Balm</Card.Title>
                   <Card.Text>
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                  A citrus-based formulation with oils of Orange and Lemon Rind to cool and refresh the skin, and nut oil extracts to soften and lightly hydrate.
                   </Card.Text>
                 </Card.Body>
               </Card>
               <Card>
                 <Card.Img variant="top" src={require("../assets/images/daily_products/Aesop-Body-Geranium-Leaf-Body-Scrub-180mL-large.png")} />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>A Rose By Any Other Name Body Cleanser</Card.Title>
                   <Card.Text>
-                    This card has supporting text below as a natural lead-in to
-                    additional content.{" "}
+                  An aromatic formulation that cleanses gently yet thoroughly, enhanced with hydrating Rose Petal oil and other skin-softening botanical extracts.
                   </Card.Text>
                 </Card.Body>
               </Card>
               <Card>
                 <Card.Img variant="top" src={require("../assets/images/daily_products/Aesop-Body-Geranium-Leaf-Body-Cleanser-500mL-large.png")} />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Geranium Leaf Body Cleanser</Card.Title>
                   <Card.Text>
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
+                  An invigorating gentle gel cleanser formulated with oils of Mandarin and Bergamot Rind to banish grime and thoroughly refresh the skin.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -106,7 +98,7 @@ export default class Home extends React.Component {
               <Shop />
             </Route>
             <Route path="/Read">
-              <Read />
+              <About />
             </Route>
             <Route path="/stores">
               <Stores />
