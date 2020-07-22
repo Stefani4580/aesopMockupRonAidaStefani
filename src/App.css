@@ -44,8 +44,8 @@
 }
 .logoText{
   position: relative;
-  top: 100px;
-  left: 50px;
+  top: 120px;
+  left: 80px;
   font-family: 'Libre Baskerville', serif
 }
 
@@ -55,7 +55,6 @@
   background: #fcba03;
   list-style: none;
   font-family: 'Varela Round', sans-serif;
-  /* text-decoration: none; */
 }
 
 li{
@@ -67,11 +66,7 @@ li{
 }
 
 .first{
+  font-family: 'Varela Round', sans-serif;
   background: #fcba03;
-  height: 300px;
 }
 
-.second{
-  background: url("./assets/images/Aesop-Free-Market-Carousel-1-Desktop-2560x1440px.png");
-  height: 300px;
-}
